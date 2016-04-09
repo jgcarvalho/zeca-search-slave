@@ -26,7 +26,7 @@ func run(fnconfig string) {
 		return
 	}
 	fmt.Println("Configuration:", conf)
-	search.RunSlave(conf)
+	search.RunClient(conf)
 }
 
 func main() {
